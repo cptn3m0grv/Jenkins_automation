@@ -1,6 +1,21 @@
 # Jenkins_automation
 This project is based on jenkins automation with the help of git, github and docker
 
+## Requirements
+These are the following requirements for the following project
+### Jenkins
+--> Some basic knowledge of job chaining
+--> Github and Git Merge plugins should be installed
+### Git and Github
+--> Basic knowledge of branching and merging in git and github
+### Docker
+--> Some advanced knowledge of docker, like volumne mounting and exposing the docker image
+--> httpd docker image
+   Use command 
+   docker pull httpd
+### Linux and Bash
+--> Core knowledge of linux file systems, permissions and bash scripting
+
 ## About the project
 This project containes of 3 jenkins jobs, 
 ### Job1
@@ -15,5 +30,6 @@ This project containes of 3 jenkins jobs,
 
 ## Below are the detailes description and features used in every job of github with screenshots
 
-### Job1
+### Job1 
+
 
