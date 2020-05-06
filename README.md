@@ -31,5 +31,7 @@ This project containes of 3 jenkins jobs,
 ## Below are the detailes description and features used in every job of github with screenshots
 
 ### Job1 
+![job1_1](images/job1_1.PNG)
+![job1_2](images/job1_2.PNG)
 
 
