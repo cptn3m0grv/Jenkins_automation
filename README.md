@@ -1,6 +1,11 @@
 # Jenkins_automation
 This project is based on jenkins automation with the help of git, github and docker
 
+*Jenkins is a free and open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery. It is a server-based system that runs in servlet containers such as Apache, Tomcat.*
+
+*Docker is a set of platform as a service products that uses OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.*
+
+
 ## Requirements
 These are the following requirements for the following project
 ### Jenkins
