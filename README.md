@@ -37,7 +37,16 @@ Then it will copy all these files to a directory, which will then be mounted to 
 ![job1_2](images/job1_2.PNG)
 
 ### Job2
-This job1 will track master branch.
+This job2 will track master branch.
+This job will only run if job3 is successful.
 Then it will copy all these files to a different directory, which will then be mounted to the main production docker image (this docker image will be the same always), to manage this the second job will also execute a bash script (job2.sh) .
 ![job2_1](images/job2_1.PNG)
 ![job2_2](images/job2_2.PNG)
+
+### Job3
+This job3 will track the job1.
+This job will only run if job1 is successful.
+This job will merge the contents of dev1 branch to the master branch if testing goes successful, and this is the reason we will also have to provide the credentials of our github account.
+![job3_1](images/job3_1.PNG)
+![job3_2](images/job3_2.PNG)
+![job3_3](images/job3_3.PNG)
