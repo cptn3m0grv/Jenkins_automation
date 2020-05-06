@@ -31,7 +31,13 @@ This project containes of 3 jenkins jobs,
 ## Below are the detailes description and features used in every job of github with screenshots
 
 ### Job1 
+This job1 will track dev1 branch.
+Then it will copy all these files to a directory, which will then be mounted to the test docker image (this docker image will only be for testing and thus be creates fresh evrytime there is a change in github repo), to manage this the first job will also execute a bash script (job1.sh) .
 ![job1_1](images/job1_1.PNG)
 ![job1_2](images/job1_2.PNG)
 
-
+### Job2
+This job1 will track master branch.
+Then it will copy all these files to a different directory, which will then be mounted to the main production docker image (this docker image will be the same always), to manage this the second job will also execute a bash script (job2.sh) .
+![job2_1](images/job2_1.PNG)
+![job2_2](images/job2_2.PNG)
